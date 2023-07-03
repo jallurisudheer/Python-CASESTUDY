@@ -1,0 +1,8 @@
+import random as r
+max_val=6
+min_val=1
+roll_again='y'
+while(roll_again=='y' ):
+    num=r.randint(min_val,max_val)
+    roll_again=input('do you want to roll again')
+    
